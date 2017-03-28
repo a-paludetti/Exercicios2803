@@ -25,7 +25,8 @@ public class Es01 {
         System.out.println("Escrea um número entre 1 e 12");
         int numero = NN.nextInt();
 
-        if (numero > 12 || numero < 1) {
+        // processamentos e saídas
+        if (numero <= 1 && numero >= 12) {
             System.out.println("Número invalido");
         } else {
             int dobro = numero * 2;
