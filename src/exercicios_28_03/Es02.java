@@ -22,8 +22,6 @@ public class Es02 {
         // guilherme | 0f5
         //      jair | 0706
 
-        Scanner NN = new Scanner(System.in);
-
         String nome = JOptionPane.showInputDialog(null, "Usuário: ");
         String senha = JOptionPane.showInputDialog(null, "Senha: ");
 
